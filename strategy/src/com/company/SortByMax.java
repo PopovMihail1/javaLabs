@@ -26,4 +26,15 @@ public class SortByMax extends Operation{
 
         System.out.println("\n");
     }
+    public void find(int mass[]){
+        int max = mass[0];
+        for (int i = 1; i < mass.length; ++i) {
+            if (mass[i] > max) {
+                max = mass[i];
+            }
+        }
+        System.out.print("Max : ");
+        System.out.print(max);
+        System.out.println("\n");
+    }
 }

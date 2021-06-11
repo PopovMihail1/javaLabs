@@ -10,7 +10,9 @@ public class Main {
         Sorting cont2 = new Sorting(2);
 
         cont1.sorting(mass);
+        cont1.find(mass);
 
         cont2.sorting(mass);
+        cont2.find(mass);
     }
 }

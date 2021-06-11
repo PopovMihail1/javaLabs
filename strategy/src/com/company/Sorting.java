@@ -29,5 +29,12 @@ public class Sorting {
         else return;
 
     }
+    public void find(int[] mass) {
+
+        if (operation != null) operation.find(mass);
+
+        else return;
+
+    }
 
 }

@@ -26,6 +26,18 @@ public class SortByMin extends Operation {
 
             System.out.print(i + " ");
 
-        System.out.println("\n");}
+        System.out.println("\n");
+    }
 
+    public void find(int mass[]){
+        int min = mass[0];
+        for (int i = 1; i < mass.length; ++i) {
+            if (mass[i] < min) {
+                min = mass[i];
+            }
+        }
+        System.out.print("Min : ");
+        System.out.print(min);
+        System.out.println("\n");
+    }
 }
